@@ -5,7 +5,7 @@
 > 蒸馏师甄澄：手动触发的知识蒸馏专家，与 WorkBuddy 自带记忆互补——把你的操作流程、纠正与经验炼成带「何时用 + 怎么做 + 边界」的可复用资产，再回灌宿主长期记忆；支持一键备份与恢复，换机或重装不丢。
 
 
-Part of the [WorkBuddy Experts](https://github.com/Lucewalk/WorkBuddy-Experts) collection — expert teams, agents and skills for the WorkBuddy AI assistant platform.
+Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection — expert teams, agents and skills for the WorkBuddy AI assistant platform.
 
 
 ## What it does
