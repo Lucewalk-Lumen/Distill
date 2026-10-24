@@ -1,16 +1,29 @@
 # distill
 
-**甄澄** · v1.0.3 · `agent`
+**蒸馏师(甄澄)** · v1.0.3 · `agent`
 
-> 蒸馏师甄澄：手动触发的知识蒸馏专家，与 WorkBuddy 自带记忆互补——把你的操作流程、纠正与经验炼成带「何时用 + 怎么做 + 边界」的可复用资产，再回灌宿主长期记忆；支持一键备份与恢复，换机或重装不丢。
+> Condense long material into structured, citable summaries
 
 
-Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection — expert teams, agents and skills for the WorkBuddy AI assistant platform.
+Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) collection.
 
 
 ## What it does
 
-- A `agent`-type package; see the manifest at `.codebuddy-plugin/plugin.json` for capabilities.
+- **Long in, reference-ready out** — long documents become structured summaries that keep the citation trail
+- **Asset library** — `bin/assets_lib.py` manages reusable extraction assets
+- **Universal-standard metadata** — UMAS card with portability and sources documented
+
+## How it works
+
+- Single agent, one focused job: distillation with provenance
+- Ships with COPYRIGHT, PORTABILITY, SOURCES and UNIVERSAL-STANDARD documents
+
+## Agent roster
+
+| Agent | Role |
+|---|---|
+| `distill` | 蒸馏师 - 甄澄（Distill · 手动版） |
 
 ## Install
 
@@ -18,10 +31,13 @@ Part of the [WorkBuddy Experts](https://github.com/Lucewalk/lucewalk-experts) co
 2. Unzip keeping the internal manifest structure intact;
 3. Import/register in WorkBuddy (custom connector → trust & enable).
 
+
 ## Version
 
-Current release: **v1.0.3** — see [CHANGELOG.md](CHANGELOG.md) if present, or the package manifest.
+Current release: **v1.0.3**. See the package manifest for details.
+
 
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
